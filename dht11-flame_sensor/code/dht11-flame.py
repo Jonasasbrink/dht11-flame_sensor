@@ -9,10 +9,10 @@ api_key = "Borttagen för säkerhet"
 channel_url = "https://api.thingspeak.com/update"
 
 # DHT11 sensor inställningar
-dht_sensor = adafruit_dht.DHT11(board.D4)  #GPIO-pin DHT11
+dht_sensor = adafruit_dht.DHT11(board.D4)  #GPIO-pin DHT11 GPIO 11 Pin 7
 
 # Flame sensor inställningar
-FLAME_PIN = 17  # GPIO-pin Flamesensor
+FLAME_PIN = 17  # GPIO-pin Flamesensor GPIO 17 pin 11
 
 # Ställ in GPIO
 GPIO.setmode(GPIO.BCM)
